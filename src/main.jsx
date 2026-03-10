@@ -7,6 +7,8 @@ import Count from './Count.jsx'
 import Counter from './Counter.jsx'
 import InputCounter from './InputCounter.jsx'
 import Context from './Context.jsx'
+import Hook from './pages/Hook.jsx'
+import LoginLocalStorage from './LoginLocalStorage.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -15,6 +17,8 @@ createRoot(document.getElementById('root')).render(
     {/* <Count/> */}
     {/* <Counter/> */}
     {/* <InputCounter/> */}
-    <Context/>
+    {/* <Context/> */}
+    {/* <Hook /> */}
+    <LoginLocalStorage />
   </StrictMode>,
 )
